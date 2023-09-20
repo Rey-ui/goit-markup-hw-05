@@ -556,4 +556,43 @@ address {
     fill: #F4F4FD;
 }
 
+/*==================modal===================*/
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(46, 47, 66, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.is-open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal {
+    position: relative;
+    width: 100%;
+    max-width: 408px;
+    height: 100%;
+    max-height: 584px;
+    padding: 24px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+}
+
+.modal-close {
+    display: block;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background-color: #E7E9FC;
+}
+
 /*==================end===================*/
