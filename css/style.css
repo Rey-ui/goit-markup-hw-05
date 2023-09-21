@@ -24,7 +24,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: var(--color--text);
-    /*max-width: 1128px;
+    /*width: 100%;
     margin: 0 auto;*/
     display: flex;
     flex-direction: column;
@@ -207,7 +207,7 @@ address {
 
 .section {
     padding: 120px 0;
-    max-width: 1440px;
+    /*max-width: 1440px;*/
 }
 
 .content__hero {
@@ -519,7 +519,6 @@ address {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
@@ -585,14 +584,30 @@ address {
 }
 
 .modal-close {
-    display: block;
     position: absolute;
     right: 24px;
     top: 24px;
+    max-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.10);
     background-color: #E7E9FC;
+}
+
+.modal-close__svg {
+    width: 8px;
+    height: 8px;
+}
+
+.modal-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 48px;
 }
 
 /*==================end===================*/
