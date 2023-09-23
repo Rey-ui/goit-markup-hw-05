@@ -761,6 +761,13 @@ address {
     margin-bottom: 16px;
 }
 
+.modal-checkbox {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
 
 .modal-checkbox-input {}
 
@@ -768,9 +775,10 @@ address {
     padding: 4px 3px;
     border: 1px solid #8E8F99;
     border-radius: 2px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -781,17 +789,15 @@ address {
 }
 
 .checkbox-modal__label {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    width: 100%;
-
     color: #8E8F99;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
-    cursor: pointer;
-    margin-bottom: 24px;
+
+}
+
+.checkbox-modal__link {
+    color: #4d5ae5;
 }
 
 .modal-checkbox-input:checked+.modal-checkbox__icon {
