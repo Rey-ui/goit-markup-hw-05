@@ -800,12 +800,12 @@ address {
     color: #4d5ae5;
 }
 
-.modal-checkbox-input:checked+.modal-checkbox__icon {
+.modal-checkbox-input:checked+.checkbox-modal__label .modal-checkbox__icon {
     background-color: #404BBF;
     border: 1px solid #404BBF;
 }
 
-.modal-checkbox-input:checked+.modal-checkbox__icon .checkbox-modal__svg {
+.modal-checkbox-input:checked+.checkbox-modal__label .modal-checkbox__icon .checkbox-modal__svg {
     opacity: 1;
 }
 
