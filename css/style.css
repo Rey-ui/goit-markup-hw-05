@@ -688,7 +688,7 @@ address {
     flex-direction: column;
 }
 
-.modal-content:not(:last-child) {
+.modal-content::not(:last-child) {
     margin-bottom: 8px;
 }
 
@@ -741,8 +741,14 @@ address {
     width: 100%;
     min-height: 120px;
     resize: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 16px;
+    outline: transparent;
+    background-color: transparent;
+    color: rgba(46, 47, 66, 0.4);
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    font-size: 12px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
@@ -780,6 +786,8 @@ address {
     align-items: center;
     cursor: pointer;
     fill: transparent;
+    width: 16px;
+    height: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
