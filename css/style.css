@@ -574,6 +574,8 @@ address {
     gap: 24px;
 }
 
+.footer-sub__label {}
+
 .footer-sub__input {
     width: 100%;
     color: #FFF;
