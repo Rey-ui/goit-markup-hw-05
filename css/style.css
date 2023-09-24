@@ -585,7 +585,6 @@ address {
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color: #FFF;
-    background: #2E2F42;
     outline: none;
     padding: 8px 16px;
     border-radius: 4px;
@@ -619,7 +618,6 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    gap: 16px;
     color: #FFF;
     min-width: 165px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -632,6 +630,7 @@ address {
 .footer-sub__span {}
 
 .footer-sub__svg {
+    margin-left: 16px;
     fill: #FFFFFF;
 }
 
@@ -649,11 +648,11 @@ address {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.is-open {
+.is-open {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
-}*/
+}
 
 .modal {
     position: absolute;
